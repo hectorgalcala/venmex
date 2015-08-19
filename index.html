@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+		<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<title>GRUPO VENMEX</title>
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<!-- <link href="css/carousel.css" rel="stylesheet"> -->
+		<link href="css/flexslider.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/reset-min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="css/animate.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+		<link rel="stylesheet" type="text/css" href="css/stickymenu.css">
+		<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+
+		<!--<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>-->
+		<!--<script>
+			// Wait until the DOM has loaded before querying the document
+			$(document).ready(function(){
+				$('ul.gallerytabs').each(function(){
+					// For each set of tabs, we want to keep track of
+					// which tab is active and it's associated content
+					var $active, $content, $links = $(this).find('a');
+
+					// If the location.hash matches one of the links, use that as the active tab.
+					// If no match is found, use the first link as the initial active tab.
+					$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+					$active.addClass('active');
+					$content = $($active.attr('href'));
+
+					// Hide the remaining content
+					$links.not($active).each(function () {
+						$($(this).attr('href')).hide();
+					});
+
+					// Bind the click event handler
+					$(this).on('click', 'a', function(e){
+						// Make the old tab inactive.
+						$active.removeClass('active');
+						$content.hide();
+
+						// Update the variables with the new link and content
+						$active = $(this);
+						$content = $($(this).attr('href'));
+
+						// Make the tab active.
+						$active.addClass('active');
+						$content.show();
+
+						// Prevent the anchor's default click action
+						e.preventDefault();
+					});
+				});
+			});
+		</script> -->
+		<!--<script src="js/viewportchecker.js"></script> -->
+		<!-- <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('.post').addClass("slidepart").viewportChecker({
+                    classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+                    offset: 100
+                   });
+
+				   jQuery('.post-left').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated bounceInLeft', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+
+	   jQuery('.post-fadein').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+
+	   jQuery('.post-bounceInUp').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated bounceInUp', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+	   jQuery('.post-flipInX').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated flipInX', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+	   jQuery('.post-lightSpeedIn').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated lightSpeedIn', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+
+
+
+
+
+		$("#slide3select").click(function() {
+  			var classvar=$("#slide7select").attr('class');
+			if(classvar == "active")
+			{
+			  $("#slide3select").addClass('active');
+			  $("#slide7select").removeClass('active');
+			}
+    	});
+
+		$("#slide2select").click(function() {
+  			var classvar=$("#slide3select").attr('class');
+			if(classvar == "active")
+			{
+			  $("#slide2select").addClass('active');
+			  $("#slide3select").removeClass('active');
+			}
+    	});
+
+		$("#slide1select").click(function() {
+  			var classvar=$("#slide2select").attr('class');
+			if(classvar == "active")
+			{
+			  $("#slide1select").addClass('active');
+			  $("#slide2select").removeClass('active');
+			}
+    	});
+
+		$("#slide7select").click(function() {
+		setTimeout('timeout_trigger()', 3000);
+
+    	});
+
+
+            });
+
+
+
+
+function timeout_trigger()
+{
+
+
+ $("#slide7select").addClass('active');
+ $("#slide3select").removeClass('active');
+}
+
+
+        </script> -->
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+       <![endif]-->
+
+		</head>
+
+		<body>
+<div class="topmenu subMenu">
+          <ul>
+    <li><a href="#" id="sTop">Inicio</a></li>
+    <li><a href="#" id="s2">Grupo VENMEX</a></li>
+    <li><a href="#" id="s3">Servicios</a></li>
+    <li><a href="#" id="s4">Proyectos</a></li>
+	<!-- <li><a class="info_link" onClick="javascript:window.location.href='contactus.html';" href="contactus.html" target="_blank">Contactenos</a></li>
+    <li><a class="info_link" onClick="javascript:window.location.href='webmail.html';"  href="webmail.html" target="_blank">Login</a></li> -->
+    <li><a class="info_link" onClick="OpenInNewTab('contactus.html')" href="contactus.html" target="_blank">Contactenos</a></li>
+    <li><a class="info_link" onClick="OpenInNewTab('webmail.html')"  href="webmail.html" target="_blank">Login</a></li>
+
+	</ul>
+        </div>
+<ul class="navigation">
+          <li data-slide="1" id="slide1select">&nbsp;</li>
+          <li data-slide="2" id="slide2select">&nbsp;</li>
+          <li data-slide="3" id="slide3select">&nbsp;</li>
+					<li data-slide="4" id="slide4select">&nbsp;</li>
+        </ul>
+<div style="background-position: 0px 0px;" class="slide sTop post" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
+          <div class="wrapper">
+    <div class="slide-1bg">
+              <div class="slidebox-1">
+        <div class="first-table">
+                  <div class="cell"> <img src="images/logo.png" alt="" />
+            <h2>UN EQUIPO QUE TRABAJA PARA USTED! </h2>
+          </div>
+                  <a class="button" title="" data-slide="2"></a> </div>
+      </div>
+            </div>
+  </div>
+        </div>
+<!--End Slide 1-->
+
+<div style="background-position: 0px 308px;" class="slide s2 post" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
+          <div class="wrapper wrapper-1">
+    <div class="slide-2bg">
+              <div class="innerpadding post-left">
+        <div class="innerlogo"><img src="images/venmex-logo.png" alt="" /></div>
+        <div class="table">
+            <div class="cell">
+							<div class="slide2liatbox">
+								<h2>Grupo <span>VENMEX</span></h2>
+									<div class="slide-2-contant"> <img src="images/group-right-img.jpg" alt="" class="text-right" />
+											<p>En 1950 se funda <span>VENMEX</span> en Maracaibo, innovando el servicio de agente aduanal con la inclusion de servicio bilingue Ingles- Espanol.</p>
+												<p>La especialidad de VENMEX son los servicios aduaneros necesarios para
+														la <span>importacion y exportacion</span> de mercancias para y desde Venezuela y los
+																servicions aparte de aduanas incluyen tambien almacenaje, transporte y
+																		servicios de viaje. Para realizar el mejor servicio a nuestros
+																			clientes contamos con varias empresas en <span>Venezuela</span> con representantes
+																				en los <span>Estados Unidos</span>.</p>
+																					<p>La compleja actividad del <span>comercio exterior</span> requiere especialistas en diversas areas como expertos aduaneros, planificacion logistica y transporte, asi mismo el adecuado almacenamiento de las mercancias.
+																						VENMEX ha hecho de esta actividad su especialidad, apoyar a sus clientes es todos los aspectos tanto horizontal como verticalmente,
+																						<span>VENMEX</span> cuenta con una plataforma tecnologica se primera linea.</p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+<!--End Slide 2-->
+
+<div style="background-position: 0px 0px;" class="slide s3 post" id="slide3" data-slide="3" data-stellar-background-ratio="0">
+          <div class="wrapper wrapper-1">
+    <div class="slide-4bg">
+              <div class="innerpadding post-bounceInUp">
+        <div class="innerlogo"><img src="images/venmex-logo.png" alt="" /></div>
+        <div class="table">
+                  <div class="cell">
+            <div class="slide-4-contant">
+                      <div class="row">
+                <div class="col-sm-3"> <img src="images/icon-1.png" alt="" />
+                          <h3>Aduana - Agente de Aduanas</h3>
+                          <p>Para cubrir todas sus necesidades de importaciones, exportaciones o cualquier otra operación aduanera en las principales ciudades y estados, cubriendo el Occidente, Centro y Oriente de Venezuela. En aquellos estados o ciudades donde el Grupo VENMEX no cuenta con oficinas, el servicio lo presta a través de representantes.</p>
+                          <!-- <a href="#" class="moreinfolink">More info</a>--> </div>
+                <div class="col-sm-3"> <img src="images/icon-2.png" alt="" />
+                          <h3>Almacén - Almacenadora</h3>
+                          <p>ALPESA es la unidad de negocio del Grupo VENMEX designada para las operaciones de almacenaje de carga bajo las modalidades de Almacén General de Deposito (AGD) o Almacén de Deposito Aduanero IN BOND.</p>
+                           </div>
+                <div class="col-sm-3"> <img src="images/icon-3.png" alt="" />
+                          <h3>Transporte</h3>
+                          <p>AUTOEXPRESS es el segmento que cubre todas sus necesidades de transporte, manejo logístico de maquinarias pesadas y extra-pesadas, embalajes especiales, descargas directas, etc.</p>
+                           </div>
+                <div class="col-sm-3"> <img src="images/icon-4.png" alt="" />
+                          <h3>Agencia de Viajes y Turismo</h3>
+                          <p>GRUPO VENMEX no solo se encarga de servicios de aduanas, almacenaje or transporte tambien brinda servicios de asesoria de viajes para personas naturales como para grupos corporativo para brindarles lo mejor para sus viajes al exterior.</p>
+                           </div>
+              </div>
+                    </div>
+          </div>
+                </div>
+      </div>
+            </div>
+  </div>
+        </div>
+<!--End Slide 3-->
+
+<div style="background-position: 0px 0px;" class="slide s4 post" id="slide4" data-slide="4" data-stellar-background-ratio="0">
+          <div class="wrapper wrapper-1">
+    <div class="">
+              <div class="innerpadding post-bounceInUp">
+         <div class="innerlogo"><!--<img src= alt="" />--></div>
+        <div class="table">
+                  <div class="cell">
+            <div class="slide-4-contant">
+                      <div class="row">
+                <div class="col-sm-3"> <!--<img src="" alt="" /> -->
+                          <h3></h3>
+                          <p></p>
+                          <!-- <a href="#" class="moreinfolink">More info</a>--> </div>
+                <div class="col-sm-3"> <!--<img src="" alt="" /> -->
+                          <h3></h3>
+                          <p></p>
+                           </div>
+                <div class="col-sm-3"> <!--<img src="" alt="" />-->
+                          <h3></h3>
+                          <p></p>
+                           </div>
+                <div class="col-sm-3"> <!--<img src="images/icon-4.png" alt="" />-->
+                          <h3></h3>
+                          <p></p>
+                           </div>
+              </div>
+                    </div>
+          </div>
+                </div>
+      </div>
+            </div>
+  </div>
+        </div>
+<!--End Slide 4-->
+
+<div style="background-position: 0px 0px;" class="slide last-slide post" id="slide7" data-slide="7" data-stellar-background-ratio="0">
+          <div class="footerwrapper">
+    <div class="slide-7bg">
+              <div class="innerpadding post-fadein">
+        <div class="slide-7-contant">
+                  <div class="footerlogo"><img src="images/logo.png" alt="" /></div>
+                </div>
+      </div>
+              <div class="footergraybg">
+        <ul>
+                  <li>Anaco</li>
+                  <li>Barcelona</li>
+                  <li>Caracas</li>
+                  <li>Maracaibo</li>
+                  <li>San Antonio del Tachira</li>
+                  <li class="bordernone">Puerto La Cruz</li>
+                </ul>
+        <div class="copyright">&copy; 2015 Grupo Venmex. All Rights Reserved.</div>
+      </div>
+            </div>
+  </div>
+        </div>
+<!--End Slide 6-->
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/jquery_002.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery_003.js"></script>
+<script type="text/javascript" src="js/waypoints.js"></script>
+<script type="text/javascript" src="js/jquery-slide.js"></script>
+<script type="text/javascript" src="js/jquery.smint.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready( function() {
+    $('.subMenu').smint({
+    	'scrollSpeed' : 1000
+    });
+
+	$('.info_link').click(function(){
+//    alert($(this).attr('href'));
+	location.href = $(this).attr('href');
+
+	});
+
+});
+
+function OpenInNewTab(PageName)
+{
+	window.open(PageName,'_blank');
+}
+
+</script>
+
+</body>
+</html>

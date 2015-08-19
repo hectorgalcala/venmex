@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>GRUPO VENMEX</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- <link href="css/carousel.css" rel="stylesheet"> -->
+        <link href="css/flexslider.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/reset-min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="css/animate.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/media-queries.css">
+        <!--<script type="text/javascript" src="js/jquery_002.js"></script>
+        <script type="text/javascript" src="js/js.js"></script>
+        <script type="text/javascript" src="js/jquery_003.js"></script>
+        <script type="text/javascript" src="js/waypoints.js"></script>
+        <script type="text/javascript" src="js/jquery-slide.js"></script>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script>
+			// Wait until the DOM has loaded before querying the document
+			$(document).ready(function(){
+				$('ul.gallerytabs').each(function(){
+					// For each set of tabs, we want to keep track of
+					// which tab is active and it's associated content
+					var $active, $content, $links = $(this).find('a');
+
+					// If the location.hash matches one of the links, use that as the active tab.
+					// If no match is found, use the first link as the initial active tab.
+					$active = $($links.filter('[href="'+location.hash+'"]')[0] || $links[0]);
+					$active.addClass('active');
+					$content = $($active.attr('href'));
+
+					// Hide the remaining content
+					$links.not($active).each(function () {
+						$($(this).attr('href')).hide();
+					});
+
+					// Bind the click event handler
+					$(this).on('click', 'a', function(e){
+						// Make the old tab inactive.
+						$active.removeClass('active');
+						$content.hide();
+
+						// Update the variables with the new link and content
+						$active = $(this);
+						$content = $($(this).attr('href'));
+
+						// Make the tab active.
+						$active.addClass('active');
+						$content.show();
+
+						// Prevent the anchor's default click action
+						e.preventDefault();
+					});
+				});
+			});
+		</script>
+        <script src="js/viewportchecker.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('.post').addClass("slidepart").viewportChecker({
+                    classToAdd: 'visible animated fadeInDown', // Class to add to the elements when they are visible
+                    offset: 100
+                   });
+
+				   jQuery('.post-left').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated bounceInLeft', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+
+	   jQuery('.post-fadein').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+
+	   jQuery('.post-bounceInUp').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated bounceInUp', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+	   jQuery('.post-flipInX').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated flipInX', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+	   jQuery('.post-lightSpeedIn').addClass("slidepart").viewportChecker({
+	    classToAdd: 'visible animated lightSpeedIn', // Class to add to the elements when they are visible
+	    offset: 100
+	   });
+
+            });
+        </script> -->
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+          <script src="js/html5shiv.js"></script>
+          <script src="js/respond.min.js"></script>
+       <![endif]-->
+
+        </head>
+
+        <body>
+<div style="background-position: 0px 0px;" class="slide post" data-slide="5" data-stellar-background-ratio="0">
+          <div class="wrapper">
+    <div class="slide-contactbg">
+              <div class="innerpadding lightSpeedIn">
+
+        <div class="table">
+                  <div class="cell">
+            <div class="squimailpage">
+
+
+                <div class="squibox">
+                <div class="innerlogo centertext"><a href="index.html"><img src="images/logo.png" alt="" /></a></div>
+                          <div class="squimailformbg">
+                    <div class="contactphonenumber">
+
+                <h3>Ingreso a Grupo VENMEX</h3>
+
+                            </div>
+                    <div class="squimailform">
+                              <label>Nombre:</label><input name="" type="text" value="Nombre">
+                              <label>Contraseña:</label><input name="" type="text" value="Contraseña">
+                              <label class="labelnone">&nbsp;</label><input name="" type="submit" value="Ingreso" class="contactsubmitbtn">
+                            </div>
+                  </div>
+                        </div>
+
+
+                    </div>
+          </div>
+                </div>
+      </div>
+            </div>
+  </div>
+        </div>
+<script src="js/bootstrap.min.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
