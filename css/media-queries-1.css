@@ -1,0 +1,201 @@
+@media only screen and (min-width: 1280px) and (max-width: 1366px)
+{
+	
+	 
+	 
+	 .innerpadding {padding:20px;}
+	 .slide-2-contant .text-right { float:right; margin: 0 0px 10px 10px;}
+	 .slide-2-contant .text-right {width:50%;}
+	 .innerlogo {margin-bottom:10px;}
+	 .slide2liatbox {height:511px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-3-img1 img {width:42%;}
+	 ul.gallerytabs {margin-bottom:40px;}
+	 .slide-3-img1 {margin-bottom:15px;}
+	 .slide-4-contant {height:450px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-5-contant {height:450px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-6-contant {height:431px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-5-contant .col-sm-4 img {width:75%; margin-bottom:15px;}
+	 .slide-5-contant .col-sm-4 {text-align:center; font-size:21px;}
+	 .slide-5-contant .col-sm-4 p {margin-bottom:15px;}
+	 .slide-6-contant h2 {margin-bottom:15px;}
+	 .slide-6-contant .testimonialimg img {width:160px; height:160px;}
+	 .slide-6-contant .testimonialimg {width:160px; height:160px; margin-bottom:10px;}
+	 .slide-6-contant .col-sm-6 {font-size:16px; line-height:24px;}
+	 .slide-6-contant .testimonialwhitebox { padding: 15px 20px;}
+	 .slide-6-contant .testimonialwhitebox p {height: 123px; margin-bottom: 16px; overflow: hidden;}
+	 .socialpart li a {padding: 10px 22px 0;}
+	 .footergraybg li a {font-size: 13px; margin-bottom: 10px; padding: 0 10px;}
+	 .copyright {font-size: 15px;}
+	 .navigation {top: 10%; left:-12px;}
+	 .slide-4-contant .col-sm-4 p {height: 89px; margin-bottom: 15px; overflow: hidden;}
+	 
+	
+}
+
+
+@media only screen and (min-width:1025px) and (max-width:1279px)
+{
+	
+	 
+	 .innerpadding {padding:20px;}
+	 .slide-2-contant .text-right { float:right; margin: 0 0px 10px 10px;}
+	 .slide-2-contant .text-right {width:50%;}
+	 .innerlogo {margin-bottom:10px;}
+	 .slide2liatbox {height:511px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-3-img1 img {width:42%;}
+	 ul.gallerytabs {margin-bottom:40px;}
+	 .slide-3-img1 {margin-bottom:15px;}
+	 .slide-4-contant {height:450px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-5-contant {height:450px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-6-contant {height:431px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .slide-5-contant .col-sm-4 img {width:75%; margin-bottom:15px;}
+	 .slide-5-contant .col-sm-4 {text-align:center; font-size:21px;}
+	 .slide-5-contant .col-sm-4 p {margin-bottom:15px;}
+	 .slide-6-contant h2 {margin-bottom:15px;}
+	 .slide-6-contant .testimonialimg img {width:160px; height:160px;}
+	 .slide-6-contant .testimonialimg {width:160px; height:160px; margin-bottom:10px;}
+	 .slide-6-contant .col-sm-6 {font-size:16px; line-height:24px;}
+	 .slide-6-contant .testimonialwhitebox { padding: 15px 20px;}
+	 .slide-6-contant .testimonialwhitebox p {height: 123px; margin-bottom: 16px; overflow: hidden;}
+	 .socialpart li a {padding: 10px 22px 0;}
+	 .footergraybg li a {font-size: 13px; margin-bottom: 10px; padding: 0 10px;}
+	 .copyright {font-size: 15px;}
+	 .navigation {top: 10%; left:-12px;}
+	 .slide-4-contant .col-sm-4 p {height: 89px; margin-bottom: 15px; overflow: hidden;}
+	
+	
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1024px)
+{
+	
+	.slide-4-contant .col-sm-4 h3 {font-size:23px; margin-bottom:10px;}
+	.slide-4-contant .col-sm-4 img {margin-bottom:10px;}
+	.slide-4-contant .col-sm-4 p {height: 89px; margin-bottom: 15px; overflow: hidden;}
+	.slide-5-contant {font-size:17px;}
+	.slide-5-contant .col-sm-4 h3 {font-size:21px; margin-bottom:10px; }
+	.slide-5-contant .col-sm-4 img {margin-bottom:15px;}
+	.slide-5-contant .col-sm-4 p {height: 242px; overflow: hidden;}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+	
+	.gallerytabs li a {padding:13px;}
+	.slide-4-contant .col-sm-4 {width:50%;}
+	.slide-4-contant .col-sm-4 h3 {font-size:23px; margin-bottom:10px;}
+	.slide-4-contant .col-sm-4 img {margin-bottom:10px;}
+	.slide-4-contant .col-sm-4 p {height: 89px; margin-bottom: 15px; overflow: hidden;}
+	.slide-5-contant {font-size:13px;}
+	.slide-5-contant .col-sm-4 h3 {font-size:19px; margin-bottom:10px; }
+	.slide-5-contant .col-sm-4 img {margin-bottom:15px;}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+	 
+	 .groupvenmexheading {height:100px; font-size:15px !important;}
+	 
+	 .slidebox-1 h2 {font-size:19px;}
+	 .innerlogo img {width:50%;}
+	 .innerpadding {padding:20px;}
+	 .slide-2-contant .text-right { float:right; margin: 0 0px 10px 10px;}
+	 .slide-2-contant .text-right {width:50%;}
+	 .innerlogo {margin-bottom:10px;}
+	 .slide2liatbox {height:150px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .gallerytabs li a { background:transparent; border: 1px solid #000; border-radius: 5px; height: 10px; margin:12px 7px 7px 7px; padding: 0; text-indent: -1000%; width: 10px; outline:none;}
+	 .gallerytabs li a.active { border: 1px solid #ff0000; border-radius: 5px; cursor: default;  background:#ff0000;}
+	 .slide-3-img1 img {width:30%;}
+	 ul.gallerytabs {margin-bottom:15px;}
+	 .slide-3-img1 {margin-bottom:15px;}
+	 .slide-4-contant {height:150px;  overflow-x: hidden; overflow-y:auto;}
+	 .slide-5-contant {height:198px;  overflow-x: hidden; overflow-y:auto;}
+	 .slide-6-contant {height:198px;  overflow-x: hidden; overflow-y:auto;}
+	 .slide-5-contant .col-sm-4 img {width:45%; margin-bottom:15px;}
+	 .slide-5-contant .col-sm-4 {text-align:center; font-size:14px;}
+	 .slide-5-contant .col-sm-4 p {margin-bottom:15px;}
+	 .slide-6-contant h2 {margin-bottom:15px;}
+	 .slide-6-contant .testimonialimg img {width:50px; height:50px;}
+	 .slide-6-contant .testimonialimg {width:50px; height:50px; margin-bottom:10px;}
+	 .slide-6-contant .col-sm-6 {font-size:13px; line-height:20px;}
+	 .slide-6-contant .testimonialwhitebox { padding: 15px 20px;}
+	 .slide-6-contant .testimonialwhitebox p {height: 61px; margin-bottom: 16px; overflow: hidden;}
+	 .socialpart li a {padding: 10px 22px 0;}
+	 .footergraybg li a {font-size: 13px; margin-bottom: 10px; padding: 0 10px;}
+	 .copyright {font-size: 15px;}
+	 .navigation {top: 10%; left:-12px;}
+	 .gallerytabs li span {display:none;}
+	 .slide-4-contant .col-sm-4 img {margin-bottom:10px;}
+	 .slide-4-contant .col-sm-4 h3 {margin-bottom:10px;}
+	
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	
+	 .groupvenmexheading {height:100px; font-size:15px !important;}
+	 
+	 .slidebox-1 h2 {font-size:19px; line-height:26px;}
+	 .innerlogo img {width:50%;}
+	 .innerpadding {padding:20px;}
+	 .slide-2-contant .text-right { float:none; margin: 0 0 10px 0px;}
+	 .slide-2-contant .text-right {width:50%;}
+	 .innerlogo {margin-bottom:10px;}
+	 .slide2liatbox {height:363px;  overflow-x: hidden; overflow-y:auto; padding-right:10px;}
+	 .gallerytabs li a { background:transparent; border: 1px solid #000; border-radius: 5px; height: 10px; margin:12px 7px 7px 7px; padding: 0; text-indent: -1000%; width: 10px; outline:none;}
+	 .gallerytabs li a.active { border: 1px solid #ff0000; border-radius: 5px; cursor: default;  background:#ff0000;}
+	 .slide-3-img1 img {width:78%;}
+	 ul.gallerytabs {margin-bottom:15px;}
+	 .slide-3-img1 {margin-bottom:15px;}
+	 .slide-4-contant {height:355px;  overflow-x: hidden; overflow-y:auto;}
+	 .slide-5-contant {height:355px;  overflow-x: hidden; overflow-y:auto;}
+	 .slide-6-contant {height:355px;  overflow-x: hidden; overflow-y:auto;}
+	 .slide-3-contant {height:261px;  overflow-x: hidden; overflow-y:auto;}
+	 .slide-5-contant .col-sm-4 img {width:45%; margin-bottom:15px;}
+	 .slide-5-contant .col-sm-4 {text-align:center; font-size:14px;}
+	 .slide-5-contant .col-sm-4 p {height: 161px; margin-bottom: 15px; overflow: hidden;}
+	 .slide-6-contant h2 {margin-bottom:15px;}
+	 .slide-6-contant .testimonialimg img {width:50px; height:50px;}
+	 .slide-6-contant .testimonialimg {width:50px; height:50px; margin-bottom:10px;}
+	 .slide-6-contant .col-sm-6 {font-size:13px; line-height:20px;}
+	 .slide-6-contant .testimonialwhitebox { padding: 15px 20px;}
+	 .slide-6-contant .testimonialwhitebox p {height: 162px; margin-bottom: 16px; overflow: hidden;}
+	 .socialpart li a {padding: 10px 12px 0; font-size:13px;}
+	 .footergraybg li a {font-size: 13px; margin-bottom: 10px; padding: 0 7px;}
+	 .copyright {font-size: 11px;}
+	 .navigation {top: 20%; left:-12px;}
+	 .socialpart li a i {font-size:24px;}
+	 .socialpart {margin-bottom:20px;}
+	 .footerlogo {margin-bottom:20px;}
+	 .slide-4-contant .col-sm-4 p {height: 133px; margin-bottom: 20px; overflow: hidden;}
+	 .serdetmenu li a {padding:0px 5px; font-size:13px;}
+	 
+	 .gallerytabs li span {display:none;}
+	 .slidebox-1 img {width:100%;}
+ 
+}
+
+
+
+/*
+@media screen and (max-width: 1366px), screen and (max-height: 945px) { }
+
+@media  screen and (max-width: 1280px), screen and (max-height: 768px) {}
+
+@media  screen and (max-width: 1023px), screen and (max-height: 600px) {}
+
+@media screen and (max-width: 736px), screen and (max-height: 470px) {}
+
+@media screen and (max-width: 414px), screen and (max-height:340px) {}
+
+@media (max-width: 414px) and (orientation: portrait) { }
+
+*/
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+

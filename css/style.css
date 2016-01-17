@@ -1,0 +1,457 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/opensans-regular-webfont.eot');
+    src: url('fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-regular-webfont.woff') format('woff'),
+         url('fonts/opensans-regular-webfont.ttf') format('truetype'),
+         url('fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('fonts/opensans-semibold-webfont.eot');
+    src: url('fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-semibold-webfont.woff') format('woff'),
+         url('fonts/opensans-semibold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('fonts/opensans-bold-webfont.eot');
+    src: url('fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opensans-bold-webfont.woff') format('woff'),
+         url('fonts/opensans-bold-webfont.ttf') format('truetype'),
+         url('fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('fonts/OpenSans-Light.eot');
+    src: url('fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Light.woff') format('woff'),
+         url('fonts/OpenSans-Light.ttf') format('truetype'),
+         url('fonts/OpenSans-Light.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.eot');
+    src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-regular-webfont.woff') format('woff'),
+         url('fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/roboto-medium-webfont.eot');
+    src: url('fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-medium-webfont.woff') format('woff'),
+         url('fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/roboto-bold-webfont.eot');
+    src: url('fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-bold-webfont.woff') format('woff'),
+         url('fonts/roboto-bold-webfont.ttf') format('truetype'),
+         url('fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light-webfont.eot');
+    src: url('fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-light-webfont.woff') format('woff'),
+         url('fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('fonts/roboto-italic-webfont.eot');
+    src: url('fonts/roboto-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-italic-webfont.woff') format('woff'),
+         url('fonts/roboto-italic-webfont.ttf') format('truetype'),
+         url('fonts/roboto-italic-webfont.svg#robotoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('fonts/roboto-mediumitalic-webfont.eot');
+    src: url('fonts/roboto-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-mediumitalic-webfont.woff') format('woff'),
+         url('fonts/roboto-mediumitalic-webfont.ttf') format('truetype'),
+         url('fonts/roboto-mediumitalic-webfont.svg#robotomedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('fonts/roboto-lightitalic-webfont.eot');
+    src: url('fonts/roboto-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-lightitalic-webfont.woff') format('woff'),
+         url('fonts/roboto-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/roboto-lightitalic-webfont.svg#robotolight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'roboto_condensedbold';
+    src: url('fonts/robotocondensed-bold-webfont.eot');
+    src: url('fonts/robotocondensed-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/robotocondensed-bold-webfont.woff') format('woff'),
+         url('fonts/robotocondensed-bold-webfont.ttf') format('truetype'),
+         url('fonts/robotocondensed-bold-webfont.svg#roboto_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'roboto_condensedregular';
+    src: url('fonts/robotocondensed-regular-webfont.eot');
+    src: url('fonts/robotocondensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/robotocondensed-regular-webfont.woff') format('woff'),
+         url('fonts/robotocondensed-regular-webfont.ttf') format('truetype'),
+         url('fonts/robotocondensed-regular-webfont.svg#roboto_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'roboto_condensedlight';
+    src: url('fonts/robotocondensed-light-webfont.eot');
+    src: url('fonts/robotocondensed-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/robotocondensed-light-webfont.woff') format('woff'),
+         url('fonts/robotocondensed-light-webfont.ttf') format('truetype'),
+         url('fonts/robotocondensed-light-webfont.svg#roboto_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html,body{
+ font-family: 'open_sansregular';
+	width:100%;
+	height:100%;
+	background:url(../images/background.jpg) repeat;
+}
+
+body {font-family: 'open_sansregular'; }
+
+.navigation{
+	position:fixed;
+	z-index:1;
+	top:40%;
+
+}
+.navigation li{
+	color:#333333;
+	display:block;
+	margin-bottom:20px;
+	font-weight:bold;
+	-webkit-transition: all .2s ease-in-out;
+	text-align:left;
+	width:19px;
+	height:19px;
+	background-color:#002f5f;
+	border-radius:100%;
+	margin-left:15px;
+}
+
+.navigation li.active {background-color:#ff0000;}
+.navigation li:hover,.active{
+	font-size:25px;
+	cursor:pointer;
+	background-color:#ff0000;
+	border-radius:100%;
+}
+.envatologo{
+position:fixed;
+top:50%;
+left:50%;
+width:446px;
+margin-top:-41px;
+margin-left:-223px;
+z-index:1;
+}
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:100%;
+	position: relative;
+	/*box-shadow:inset 0px 10px 10px rgba(0,0,0,0.3);*/
+}
+.wrapper{
+	width:90%;
+	height:100%;
+	margin:0 auto;
+	position:relative;
+	padding:20px 0px 20px 0px;
+	position: relative;
+	overflow: hidden;
+}
+.slideno{
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	font-size:100px;
+	font-weight:bold;
+	color:rgba(255,255,255,0.3);
+}
+.button{
+	display:block;
+	width:34px;
+	height:20px;
+	position:absolute;
+	bottom:40px;
+	left:50%;
+	background:url(../images/down-arrow.png) no-repeat;
+}
+.button:hover{
+	cursor:pointer;
+}
+
+/******************************
+ SLIDE 1
+*******************************/
+#slide1{
+	/*background-color:#5c9900;*/
+
+
+
+}
+/******************************
+ SLIDE 2
+*******************************/
+#slide2{
+	/* background-color:#005c99; */
+
+}
+
+/******************************
+ SLIDE 3
+*******************************/
+#slide3{
+	/*background-color:#b6c10b;*/
+}
+
+/******************************
+ SLIDE 4
+*******************************/
+
+#slide4{
+	/*background-image:url(../images/Slide4/desktop4.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;*/
+}
+
+
+/******************************
+ SLIDE 5
+*******************************/
+
+#slide5{
+	/*background-color:#b6c10b;*/
+}
+
+
+
+.slide-1bg {background-image:url(../images/1-bg.jpg); background-size:100% 100%; height:100%; border-radius:15px; padding:10px 0px 20px 0px;}
+.slide-2bg {background-image:url(../images/2-bg.jpg); background-size:100% 100%; height:100%; border-radius:15px; padding:10px 0px 20px 0px;}
+.slide-3bg {background-color:#3498db; height:100%; border-radius:15px; padding:10px 0px 20px 0px;}
+.slide-4bg {background-image:url(../images/3-bg.jpg); background-size:100% 100%; height:100%; border-radius:15px; padding:10px 0px 20px 0px;}
+.slide-5bg {background-image:url(../images/4-bg.jpg); background-size:100% 100%; height:100%; border-radius:15px; padding:10px 0px 20px 0px;}
+.slide-6bg {background-image:url(../images/5-bg.jpg); background-size:100% 100%; height:100%; border-radius:15px; padding:10px 0px 20px 0px;}
+.slide-7bg {background-color:#fff; height:100%; border-radius:15px;}
+
+.slide-contactbg {background-image:url(../images/1-bg.jpg); background-size:100% 100%; height:100%; border-radius:15px; padding:10px 0px 20px 0px;}
+
+.slidebox-1 {text-align:center;  vertical-align:middle; padding:40px; height:100%}
+.slidebox-1 img {display:inline-block; margin-bottom:20px;}
+.slidebox-1 h2 {font-size:36px; color:#ffffff; text-transform:uppercase; font-family: 'roboto_condensedregular'; text-shadow: 2px 2px 0 #000;}
+
+
+.innerpadding {padding:40px; height:100%; overflow-x:hidden; overflow-y:scroll; width:102%;}
+
+.innerlogo {margin-bottom:20px;}
+
+.slide-2bg h2 {margin-bottom:20px; font-size:30px; color:#ffffff; font-family: 'roboto_condensedbold'; text-align:center;}
+.slide-2bg h2 span {text-transform:uppercase;}
+
+.slide-2-contant {font-size:16px; color:#ffffff; }
+.slide-2-contant  span {color:#003895;}
+.slide-2-contant p {margin-bottom:20px; line-height:24px;}
+.slide-2-contant .text-right {float:right; margin:0px 0px 20px 30px;}
+.slide-2-contant img {border:2px solid #003895; border-radius:4px;}
+
+.first-table {display: table; height: 94%; width: 100%;}
+.table {display: table; height: 81%; width: 100%;}
+.cell {display: table-cell; vertical-align: middle;}
+
+ul.gallerytabs {margin:0px 0px 40px 0px; padding:0px; background-color:#fff; border:2px solid #003895;}
+.gallerytabs li {list-style:none; display:inline-block; text-align:center;}
+.gallerytabs li a {padding:13px 25px; display:inline-block; background-color:transparent; color:#000000; text-decoration:none; font-size:16px; font-family: 'roboto_condensedbold'; text-align:center;}
+.gallerytabs li a.active {background-color:transparent; color:#3498db; border-radius:0px;}
+
+
+
+
+
+.slide-3-img1 {text-align:center; margin-bottom:40px;}
+
+.serdetmenu {margin-bottom:20px;  text-align:center; }
+.serdetmenu ul {margin:0px !important; padding:0px !important; background-color:#fff; display:inline-block;}
+.serdetmenu li {list-style-type:none; text-align:center; display:inline-block; margin:0px; padding:10px 0px; margin:0px;  }
+.serdetmenu li a {text-align:center; display:inline-block; padding:0px 15px; border-right:1px solid #003895; font-size:16px; color:#000000;  font-family: 'roboto_condensedbold'; text-decoration:none;}
+.serdetmenu li a.noneborder {border-right:none;}
+.serdetmenu li a:hover {color:#3498db;  text-decoration:none;}
+
+.tabpart {text-align:center !important;}
+
+.slide-4-contant {font-size:16px; color:#ffffff; }
+.slide-4-contant .col-sm-3 {text-align:center; margin-bottom:40px; }
+.slide-4-contant .col-sm-3 img {margin-bottom:20px;}
+.slide-4-contant .col-sm-3 p {height: 300px; margin-bottom: 20px; overflow: hidden;}
+.slide-4-contant .col-sm-3 h3 {font-size:30px; color:#fff; font-family: 'roboto_condensedregular'; margin-bottom:15px;}
+.slide-4-contant a.moreinfolink {display:inline-block; font-size:18px; color:#888fa1; text-align:center; padding:7px 25px; background-color:#fff; text-decoration:none;}
+.slide-4-contant a:hover.moreinfolink {color:#fff; background-color:#003895; text-decoration:none;}
+.slide-5-contant {font-size:16px; color:#ffffff; font-size:20px; color:#fff;}
+.slide-5-contant .col-sm-4 {margin-bottom:40px; }
+.slide-5-contant .col-sm-4 img {border:2px solid #003895; width:100%; height:auto; margin-bottom:30px;}
+.slide-5-contant .col-sm-4 h3 {font-size:24px; color:#000000; font-family: 'roboto_condensedbold'; margin-bottom:15px; text-align:center;}
+.slide-5-contant .col-sm-4 p {margin-bottom:20px; text-align:justify;}
+
+.slide-5-contant a.moreinfolink {display:inline-block; font-size:18px; color:#888fa1; text-align:center; padding:7px 25px; background-color:#fff; text-decoration:none;}
+.slide-5-contant a:hover.moreinfolink {color:#fff; background-color:#003895; text-decoration:none;}
+.aligncenter {text-align:center;}
+
+.slide-6-contant h2 {margin-bottom:40px; font-size:30px; color:#ffffff; font-family: 'roboto_condensedbold'; text-align:center;}
+.slide-6-contant .col-sm-6 {font-size:16px; color:#000000; line-height:24px;}
+.slide-6-contant .testimonialwhitebox {background-color:#fff; padding:30px 20px;}
+
+.slide-6-contant .testimonialimg {width:175px; height:175px; margin:auto auto 20px auto;}
+.slide-6-contant .testimonialwhitebox p {margin-bottom:30px;}
+.slide-6-contant .testimonialimg img {width:175px; height:175px; border-radius:100%;}
+
+.slide-6-contant a.moreinfolink {display:inline-block; font-size:18px; color:#fff; text-align:center; padding:7px 25px; background-color:#003895; text-decoration:none;}
+.slide-6-contant a:hover.moreinfolink {color:#fff; background-color:#1b191e; text-decoration:none;}
+
+
+.socialpart {text-align:center;  margin-bottom:40px;}
+.socialpart ul {margin:0px; padding:0px; border-radius:7px; background-color:#d7d7d7; display:inline-block;}
+.socialpart li {list-style-type:none; float:left; display:inline-block; text-align:center; }
+.socialpart li a {text-decoration:none; color:#000000; font-size:18px; padding:10px 50px 0px 50px; text-align:center; line-height:40px; display:inline-block; border-right:1px solid #0b4098;}
+.socialpart li a:hover {text-decoration:none; }
+.socialpart li a i {display:block; color:#003895; font-size:40px;}
+.socialpart li a:hover i  {display:block; color:#ff0000;}
+.socialpart li a.noneborder {border-right:none;}
+
+.footerlogo {margin-bottom:40px; text-align:center; }
+
+.footergraybg {background-color:#d7d7d7; border-top:5px solid #003895; padding:20px 20px 15px 20px; text-align:center; border-radius:0px 0px 15px 15px;}
+.footergraybg ul {margin:0px 0px 0px 0px; padding:0px;}
+.footergraybg li {list-style-type:none; display:inline-block; text-align:center; }
+.footergraybg li {font-size:18px; color:#000000; padding:0px 15px; margin-bottom:15px; text-decoration:none; display:inline-block; border-right:1px solid #003895;}
+
+.footergraybg li.bordernone {border-right:none;}
+.footergraybg li.hover {color:#000000; text-decoration:underline;}
+.copyright {font-size:22px;}
+.footerwrapper{width:90%; margin:0 auto; position:relative; padding:20px 0px 20px 0px; overflow:hidden;}
+
+
+
+.last-slide {height:40%;}
+
+::-webkit-scrollbar { display: none; }
+
+
+.contactpage .map iframe {width:100%; height:650px; border:3px solid #fff; border-radius:15px; opacity:.8;}
+.contactpage h3 {margin-bottom:40px; font-size:30px; color:#ffffff; font-family: 'roboto_condensedbold'; text-align:center; }
+.contactformbg {background-color:rgba(255, 255, 255, 0.7); border-radius:15px; height:650px; padding:5%;}
+
+.contactphonenumber {margin-bottom:20px; color:#000;}
+.contactphonenumber p {margin-bottom:20px;}
+.contactphonenumber span {color:#003895; font-weight:bold;}
+.conphonenum {background:url(../images/icon-call.png) no-repeat 0px 2px; padding-left:25px;}
+.conphonenum a {color:#000;}
+.conenail {background:url(../images/icon-mail.png) no-repeat 0px 2px; padding-left:25px;}
+.conaddress {background:url(../images/icon-map.png) no-repeat 0px 2px; padding-left:25px;}
+
+.contactform {}
+.contactform input {width:70%; padding:7px 10px; background-color:#fff; border:1px solid #ccc; margin-bottom:20px; border-radius:4px; display:block; clear:both;}
+.contactform input.last {}
+.contactform textarea {width:95%;  padding:7px 10px; background-color:#fff; border:1px solid #ccc; margin-bottom:20px; height:150px;  border-radius:4px; display:block;}
+.contactsubmitbtn {background-color:#003895 !important; border:none!important; border-radius:5px !important; padding:10px 30px !important; text-align:center !important; color:#fff !important; font-size:14px !important; cursor:pointer !important; display:inline-block !important; width:auto !important;}
+.contactsubmitbtn:hover {opacity:0.8;}
+
+.contactphonenumber .col-sm-3 {width:40%;}
+
+.conaddress p {margin-bottom:0px;}
+
+
+
+.topmenu {text-align:center; background-color:#fff; border:2px solid #003895; margin:0px 0px 40px 0px;}
+.topmenu ul {margin:0px; padding:0px;}
+.topmenu li {list-style:none; display:inline-block; text-align:center;}
+.topmenu li a {padding:13px 25px; display:inline-block; background-color:transparent; color:#000000; text-decoration:none; font-size:16px; font-family: 'roboto_condensedbold'; text-align:center; outline:none;}
+.topmenu li a:hover {background-color:transparent; color:#3498db; border-radius:0px;}
+.topmenu li a.active {background-color:transparent; color:#3498db; border-radius:0px;}
+
+.wrapper-1 {height: 95%;}
+
+.squimail {font-size:17px; color:#000; text-align:center; margin-bottom:20px;}
+
+.squimailpage h3 {margin-bottom:40px; font-size:30px; color:#000; font-family: 'roboto_condensedbold'; text-align:center; }
+.squimailformbg {background-color:rgba(255, 255, 255, 0.7); border-radius:15px; height:auto; padding:5%;}
+.centertext {text-align:center; margin-bottom:50px;}
+.squibox {margin:auto; width:40%;}
+
+.squimailform label {float:left; width:100px; color:#000; font-size:15px; margin-right:10px; padding-top:7px;}
+.squimailform input {width:70%; padding:7px 10px; background-color:#fff; border:1px solid #ccc; margin-bottom:20px; border-radius:4px;}
