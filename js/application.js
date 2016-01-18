@@ -1,9 +1,8 @@
-<<<<<<< HEAD
+
 // NOTICE!! DO NOT USE ANY OF THIS JAVASCRIPT
 // IT'S ALL JUST JUNK FOR OUR DOCS!
 // ++++++++++++++++++++++++++++++++++++++++++
-=======
->>>>>>> 18c0ae29d66b285d2e10c3d44623ec8b0340a5e0
+
 
 !function ($) {
 
